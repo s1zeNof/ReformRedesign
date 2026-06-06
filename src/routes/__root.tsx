@@ -77,18 +77,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ReformRedesign#1" },
-      { name: "description", content: "ReformRedesign#1" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "ReformRedesign#1" },
-      { property: "og:description", content: "ReformRedesign#1" },
+      { name: "author", content: "REFORM" },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-      { name: "twitter:title", content: "ReformRedesign#1" },
-      { name: "twitter:description", content: "ReformRedesign#1" },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/00375b75-c47e-45d3-bdb6-9a2dc5b3b03e/id-preview-2ad9a4c5--d9f21c7e-ca40-4646-85bb-710fea239d37.lovable.app-1780683918355.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/00375b75-c47e-45d3-bdb6-9a2dc5b3b03e/id-preview-2ad9a4c5--d9f21c7e-ca40-4646-85bb-710fea239d37.lovable.app-1780683918355.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -111,7 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="uk">
       <head>
         <HeadContent />
       </head>
